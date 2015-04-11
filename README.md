@@ -1,5 +1,4 @@
 # Python Script for controlling Robot Arm and Motor on Raspberry PI
-Dr Paul Netherwood
 Python scripts running on Raspberry PI for arm/robot control. These Python scripts run a socket server to control the Maplin robot arm annd the Ryanteck motor controller. arm_server.py listens for socket connections on port 5000.
 
 
@@ -8,8 +7,7 @@ Ryanteck Motor Controller: http://www.ryanteck.uk/store/ryanteck-rpi-motor-contr
 
 Dependencies
 ============
-PyUSB
-https://pypi.python.org/pypi/pyusb
+PyUSB https://pypi.python.org/pypi/pyusb
 
 Arm control based on original article in MagPi Issue 3: http://www.themagpi.com/issue/issue-3/article/skutter-write-a-program-for-usb-device
 
@@ -18,7 +16,7 @@ Running the Server
 
 To start the server:
 
-  sudo python arm_server.py
+  $ sudo python arm_server.py
   
 Server will wait for commands send from Android app. See https://github.com/pnetherwood/ArmControlAndroid
 
