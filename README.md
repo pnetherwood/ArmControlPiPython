@@ -1,8 +1,6 @@
-# ArmControlPiPython
-# Dr Paul Netherwood
-Python scripts running on Raspberry PI for arm/robot control
-
-These scripts are the python server to control the Maplin robot arm annd the Ryanteck motor controller. arm_server.py listsnes for socket connections on port 5000.
+# Python Script for controlling Robot Arm and Motor on Raspberry PI
+Dr Paul Netherwood
+Python scripts running on Raspberry PI for arm/robot control. These Python scripts run a socket server to control the Maplin robot arm annd the Ryanteck motor controller. arm_server.py listens for socket connections on port 5000.
 
 
 Maplin Robot Arm: http://www.maplin.co.uk/p/robotic-arm-kit-with-usb-pc-interface-a37jn
